@@ -47,7 +47,8 @@ Create a `.env` file:
 ```env
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
-# Installation & Setup
+
+# Installation & Setup:
 git clone https://github.com/your-username/afaqmall.git
 cd afaqmall
 npm install
