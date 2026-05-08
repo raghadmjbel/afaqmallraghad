@@ -26,22 +26,7 @@ The system integrates a modern frontend with a backend service to ensure scalabi
 | Auth        | Supabase Auth |
 
 # System Architecture
-The project is built using a combination of architectural styles:
-### 1. Client-Server Architecture
-- The **client (frontend)** is built using Next.js and handles UI and user interactions.
-- The **server (backend)** is managed by Supabase, which provides database, authentication, and APIs.
-### 2. MVC Pattern (Conceptual Implementation)
-The project follows the MVC concept to organize code:
-- **Model:** Data stored in Supabase (database tables)
-- **View:** UI components and pages (Next.js)
-- **Controller:** Business logic and API interaction (functions, services)
-### 3. RESTful Communication
-Communication between frontend and backend is based on REST principles:
-- Data is fetched using HTTP requests
-- Example operations:
-  - GET → retrieve products
-  - POST → create orders
-  - UPDATE / DELETE → modify data
+
 ## Environment Variables
 Create a `.env` file:
 ```env
